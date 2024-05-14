@@ -1,6 +1,6 @@
 import json
 
-
+# a simple json array
 MYJSON = """
 {
     "firstName": "Jane",
@@ -20,6 +20,7 @@ MYJSON = """
 }
 """
 
+# load it into a var
 myjson = json.loads(MYJSON)
 
 fname = myjson['firstName']
